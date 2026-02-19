@@ -16,9 +16,10 @@ export default {
       "src/mainview/index.html": "views/mainview/index.html",
       "src/mainview/index.css": "views/mainview/index.css",
     },
-    mac: {
-      bundleCEF: false,
-    },
+		mac: {
+			bundleCEF: false,
+			icons: "icon.iconset",
+		},
     linux: {
       bundleCEF: false,
       icon: "icon.iconset/icon_256x256.png",
