@@ -1,0 +1,16 @@
+{
+	"name": "eb-google-messages",
+	"version": "1.0.0",
+	"description": "Native-feeling Electrobun wrapper for Google Messages Web",
+	"scripts": {
+		"dev": "electrobun dev",
+		"build": "electrobun build",
+		"start": "bun run build && bun run dev"
+	},
+	"dependencies": {
+		"electrobun": "latest"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	}
+}
