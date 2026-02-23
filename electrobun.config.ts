@@ -6,6 +6,9 @@ export default {
     identifier: "com.local.googlemessages.wrapper",
     version: "0.0.1",
   },
+  runtime: {
+    exitOnLastWindowClosed: true,
+  },
   build: {
     views: {
       mainview: {
