@@ -7,7 +7,7 @@ export default {
     version: "0.0.1",
   },
   runtime: {
-    exitOnLastWindowClosed: true,
+    exitOnLastWindowClosed: false,
   },
   build: {
     views: {
@@ -20,15 +20,15 @@ export default {
       "src/mainview/index.css": "views/mainview/index.css",
     },
     mac: {
-      bundleCEF: true,
+      bundleCEF: false,
       icons: "icon.iconset",
     },
     linux: {
-      bundleCEF: true,
+      bundleCEF: false,
       icon: "icon.iconset/icon_256x256.png",
     },
     win: {
-      bundleCEF: true,
+      bundleCEF: false,
       icon: "icon.iconset/icon_256x256.png",
     },
   },
